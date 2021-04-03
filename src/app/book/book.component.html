@@ -1,0 +1,82 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 col-lg-10 offset-md-1 col-sm-12">
+      <div>
+        <div class="mb-3">
+          <h3>Booker ::: Improve Your Mind 🧘🏿‍♂️</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-3 mb-3 mt-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search booker"
+              [(ngModel)]="search"
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="col-md-3 mb-3 mt-3 _mx">
+            <a [routerLink]="['/add-book']">
+              <button class="btn btn-success">Add a Book</button>
+            </a>
+            <a [routerLink]="['/lend']">
+              <button class="btn btn-warning">Lend a Book</button>
+            </a>
+          </div>
+        </div>
+
+        <div style="overflow-x: auto">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Author</th>
+                <th scope="col">Country</th>
+                <!-- <th scope="col">Language</th> -->
+                <th scope="col">Pages</th>
+                <th scope="col">Title</th>
+                <th scope="col">Year</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                *ngFor="
+                  let book of books$ | searchFilter: search;
+                  let i = index
+                "
+              >
+                <th scope="row">{{ book.id }}</th>
+                <td>{{ book.author }}</td>
+                <td>{{ book.country }}</td>
+                <!-- <td>{{ book.language }}</td> -->
+                <td>{{ book.pages }}</td>
+                <td>{{ book.title }}</td>
+                <td>{{ book.year }}</td>
+                <td class="td-btn">
+                  <div class="btn-group" role="group">
+                    <button
+                      type="button"
+                      class="btn btn-outline-success btn-sm"
+                      (click)="onUpdate(book.id)"
+                    >
+                      Update
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-outline-danger btn-sm mr-2"
+                      (click)="onDelete(book.id)"
+                    >
+                      Delete
+                    </button>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

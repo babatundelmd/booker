@@ -1,0 +1,130 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "author": "Chinua Achebe",
+      "country": "Nigeria",
+      "language": "English",
+      "pages": 209,
+      "title": "Things Fall Apart",
+      "year": 1958
+    },
+    {
+      "id": 2,
+      "author": "Hans Christian Andersen",
+      "country": "Denmark",
+      "language": "Danish",
+      "pages": 784,
+      "title": "Fairy tales",
+      "year": 1836
+    },
+    {
+      "id": 3,
+      "author": "Dante Alighieri",
+      "country": "Italy",
+      "language": "Italian",
+      "pages": 928,
+      "title": "The Divine Comedy",
+      "year": 1315
+    },
+    {
+      "id": 4,
+      "author": "Jane Austen",
+      "country": "United Kingdom",
+      "language": "English",
+      "pages": 226,
+      "title": "Pride and Prejudice",
+      "year": 1813
+    },
+    {
+      "id": 5,
+      "author": "Honoré de Balzac",
+      "country": "Nigeria",
+      "language": "French",
+      "pages": 444,
+      "title": "Le Père Goriota",
+      "year": 1835
+    },
+    {
+      "id": 6,
+      "author": "Samuel Beckett",
+      "country": "Republic of Ireland",
+      "language": "French, English",
+      "pages": 256,
+      "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
+      "year": 1952
+    },
+    {
+      "id": 7,
+      "author": "Giovanni Boccaccio",
+      "country": "Italy",
+      "language": "Italian",
+      "pages": 1024,
+      "title": "The Decameron",
+      "year": 1351
+    },
+    {
+      "id": 8,
+      "author": "Jorge Luis Borges",
+      "country": "Argentina",
+      "language": "Spanish",
+      "pages": 224,
+      "title": "Ficciones",
+      "year": 1965
+    },
+    {
+      "id": 9,
+      "author": "Emily Brontë",
+      "country": "United Kingdom",
+      "language": "English",
+      "pages": 342,
+      "title": "Wuthering Heights",
+      "year": 1847
+    },
+    {
+      "author": "Jake Tapper",
+      "country": "Andorra",
+      "language": "English",
+      "pages": 900,
+      "title": "Heliish",
+      "year": "9000",
+      "id": 10
+    },
+    {
+      "author": "Jake Tapper",
+      "country": "Angola",
+      "language": "English",
+      "pages": 800,
+      "title": "Hellish",
+      "year": "2030",
+      "id": 11
+    },
+    {
+      "author": "Gundagon Man",
+      "country": "Albania",
+      "language": "French",
+      "pages": 200,
+      "title": "Dead or Dead",
+      "year": "4000",
+      "id": 13
+    }
+  ],
+  "lend": [
+    {
+      "id": 1,
+      "name": "john",
+      "bookTitle": "My book",
+      "bookAuthor": "Babatunde",
+      "lendingDate": "string",
+      "returnDate": "string"
+    },
+    {
+      "name": "Babatunde",
+      "bookTitle": "Ghost of Winterfell",
+      "bookAuthor": "Babatunde",
+      "lendingDate": "2021-04-23",
+      "returnDate": "2021-04-30",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 col-lg-4 offset-md-4 col-sm-12 mb-5">
+      <form
+        [formGroup]="FormData"
+        role="form"
+        (ngSubmit)="onSubmit(FormData.value)"
+      >
+        <div class="form-group mb-3">
+          <h2>📚 Lend A Book</h2>
+        </div>
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" formControlName="name" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label>Book Title</label>
+          <input type="text" formControlName="bookTitle" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label>Book Author</label>
+          <input
+            type="text"
+            formControlName="bookAuthor"
+            class="form-control"
+          />
+        </div>
+        <div class="form-group">
+          <label>Lending Date</label>
+          <input
+            type="date"
+            formControlName="lendingDate"
+            class="form-control"
+          />
+        </div>
+        <div class="form-group">
+          <label>Return Date</label>
+          <input
+            type="date"
+            formControlName="returnDate"
+            class="form-control"
+          />
+        </div>
+        <div class="mt-2">
+          <button type="submit" class="btn btn-success">Login</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
