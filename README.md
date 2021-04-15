@@ -1,6 +1,6 @@
 # Booker
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
+A simple library application with CRUD
 
 ## Development server
 

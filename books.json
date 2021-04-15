@@ -100,12 +100,21 @@
       "id": 11
     },
     {
-      "author": "Gundagon Man",
-      "country": "Albania",
-      "language": "French",
-      "pages": 200,
-      "title": "Dead or Dead",
-      "year": "4000",
+      "author": "Victoria Tosin",
+      "country": "Chile",
+      "language": "English",
+      "pages": 400,
+      "title": "Managing Your Choleric Husband: The Christian Perspective",
+      "year": 2025,
+      "id": 12
+    },
+    {
+      "author": "Jake",
+      "country": "Nigeria",
+      "language": "English",
+      "pages": 300,
+      "title": "Captain America is Trash",
+      "year": 9030,
       "id": 13
     }
   ],
