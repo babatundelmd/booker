@@ -1,6 +1,6 @@
 # Booker
 
-A simple library application with CRUD
+A simple library application with CRUD and snapshot testing with Cypress.
 
 ## Development server
 
